@@ -2,7 +2,7 @@
 #SBATCH --job-name=graph_crawler  
 #SBATCH --output=graph_crawler_%j.out       
 #SBATCH --ntasks=1                           
-#SBATCH --cpus-per-task=4                    #  THIS NEEDS TO MATCH MAX THREADS
+#SBATCH --cpus-per-task=6                    #  THIS NEEDS TO MATCH MAX THREADS
 #SBATCH --time=00:10:00                      
 #SBATCH --partition=Centaurus               
 
@@ -19,6 +19,6 @@ echo "======================================"
 echo ""
 
 # Run with start node "Yola", depth 3, and 4 threads
-{ time ./crawler "Yola" 3 4; } 2>&1
+{ time ./crawler "Yola" 5 6; } 2>&1
 
 rm crawler
