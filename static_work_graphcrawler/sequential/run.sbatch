@@ -6,7 +6,7 @@
 #SBATCH --time=00:10:00                      
 #SBATCH --partition=Centaurus               
 
-make level_client
+make
 
 echo "======================================"
 echo " SLURM job information"
@@ -20,7 +20,4 @@ echo ""
 
 # Change the number after Yola to for depth
 { time ./level_client "Yola" 3; } 2>&1
-
-# Clean up
-rm level_client
 
