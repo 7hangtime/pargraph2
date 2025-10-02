@@ -1,0 +1,230 @@
+g++ -std=c++17 -Wall -I.     graphcrawler.cpp -o crawler -lcurl
+graphcrawler.cpp: In function ‘std::vector<std::vector<std::__cxx11::basic_string<char> > > bfs_parallel(const string&, int, int)’:
+graphcrawler.cpp:113:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::thread>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  113 |         for (int j = 0; j < threads.size(); j++)
+      |                         ~~^~~~~~~~~~~~~~~~
+graphcrawler.cpp: In function ‘int main(int, char**)’:
+graphcrawler.cpp:142:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<std::__cxx11::basic_string<char> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  142 |     for (int d = 0; d < levels.size(); d++)
+      |                     ~~^~~~~~~~~~~~~~~
+======================================
+ SLURM job information
+ Job ID: 3542
+ Job Name: graph_crawler
+ Node: gal-c1
+ CPUs: 4
+======================================
+
+Nodes reachable within depth 3:
+Level 0 (1 nodes):
+- Yola
+Level 1 (1 nodes):
+- Elvis
+Level 2 (31 nodes):
+- Nicholas Bell
+- Terepai Richmond
+- Olivia DeJonge
+- Dacre Montgomery
+- Kate Mulvany
+- Christopher Sommers
+- Josh McConville
+- Natasha Bassett
+- Kelvin Harrison Jr.
+- Mark Leonard Winter
+- Alton Mason
+- Helen Thomson
+- Christian McCarty
+- Chaydon Jay
+- Patrick Sheare
+- Adam Dunn
+- Alex Radu
+- Mike Bingaman
+- David Gannon
+- Tony Nixon
+- Gareth Davies
+- Shonka Dukureh
+- Tom Hanks
+- David Wenham
+- Xavier Samuel
+- Richard Roxburgh
+- Austin Butler
+- Kodi Smit-McPhee
+- Gary Clark Jr.
+- Luke Bracey
+- Leon Ford
+Level 3 (171 nodes):
+- 2:37
+- September
+- Newcastle
+- The Loved Ones
+- The Twilight Saga: Eclipse
+- Road Kill
+- A Few Best Men
+- Anonymous
+- The Twilight Saga: Breaking Dawn – Part 2
+- Bait 3D
+- Two Mothers
+- Plush
+- Drift
+- Healing
+- Fury
+- Frankenstein
+- Mr. Church
+- Love & Friendship
+- Spin Out
+- Blonde
+- Mission: Impossible 2
+- Moulin Rouge!
+- The Touch
+- The One and Only
+- The League of Extraordinary Gentlemen
+- Van Helsing
+- Fragile
+- Stealth
+- Like Minds
+- Matching Jack
+- Sanctum
+- The Turning
+- Hacksaw Ridge
+- Breath
+- Danger Close: The Battle of Long Tan
+- Angel of Mine
+- H Is for Happiness
+- Go Karts
+- Aliens in the Attic
+- My Uncle Rafael
+- The Intruders
+- Yoga Hosers
+- Once Upon a Time in Hollywood
+- The Dead Don't Die
+- The Bikeriders
+- Dune: Part Two
+- Stranded
+- Romulus, My Father
+- The Tender Hook
+- The Road
+- Let Me In
+- Dead Europe
+- Romeo and Juliet
+- The Congress
+- A Birder's Guide to Everything
+- Young Ones
+- Dawn of the Planet of the Apes
+- All the Wilderness
+- Slow West
+- X-Men: Apocalypse
+- Deadpool 2
+- Dark Phoenix
+- Dolemite Is My Name
+- 2067
+- The Power of the Dog
+- Maria
+- Chef
+- Sweetwater
+- Monte Carlo
+- G.I. Joe: Retaliation
+- The November Man
+- The Best of Me
+- Point Break
+- Lucky Day
+- Holidate
+- Violet
+- Interceptor
+- One True Loves
+- Maybe I Do
+- Lost Things
+- The Green Mile
+- Cast Away
+- Road to Perdition
+- Catch Me If You Can
+- Concert for George
+- The Ladykillers
+- The Terminal
+- The Polar Express
+- Elvis Has Left the Building
+- The Da Vinci Code
+- Charlie Wilson's War
+- The Pixar Story
+- The Great Buck Howard
+- Angels & Demons
+- Prohibition
+- Larry Crowne
+- Extremely Loud and Incredibly Close
+- Cloud Atlas
+- Captain Phillips
+- Saving Mr. Banks
+- Ithaca
+- Bridge of Spies
+- A Hologram for the King
+- Inferno
+- Sully
+- Defying the Nazis: The Sharps' War
+- California Typewriter
+- The Circle
+- The Post
+- Greyhound
+- A Beautiful Day in the Neighborhood
+- News of the World
+- Borat Subsequent Moviefilm
+- Finch
+- Pinocchio
+- A Man Called Otto
+- Asteroid City
+- Here
+- Better Than Sex
+- Dust
+- The Bank
+- Russian Doll
+- The Lord of the Rings: The Two Towers
+- Pure
+- The Crocodile Hunter: Collision Course
+- The Lord of the Rings: The Return of the King
+- The Proposition
+- Three Dollars
+- 300
+- Married Life
+- Australia
+- The Children of Huang Shi
+- Public Enemies
+- Pope Joan
+- Oranges and Sunshine
+- 300: Rise of an Empire
+- Paper Planes
+- Lion
+- Pirates of the Caribbean: Dead Men Tell no Tales
+- In Like Flynn
+- Dirt Music
+- Ender's Game
+- It Comes at Night
+- Assassination Nation
+- Monster
+- Monsters and Men
+- Waves
+- Gully
+- Luce
+- The High Note
+- The Trial of the Chicago 7
+- Cyrano
+- Chevalier
+- Balibo
+- The Dressmaker
+- Escape from Pretoria
+- Dallas Buyers Club
+- Bad Eggs
+- Noise
+- Prey
+- Mighty Morphin Power Rangers: The Movie
+- Don't Be Afraid of the Dark
+- Crawlspace
+- Kath & Kimderella
+- I, Frankenstein
+- The Sisterhood of Night
+- The Visit
+- Better Watch Out
+- The Broken Hearts Gallery
+- Went Up the Hill
+- Hail, Caesar!
+
+real	0m1.727s
+user	0m0.014s
+sys	0m0.011s
