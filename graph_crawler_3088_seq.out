@@ -1,0 +1,10 @@
+g++ -std=c++17 -Wall -I.     graphcrawler.cpp -o crawler -lcurl
+======================================
+ SLURM job information
+ Job ID: 3088
+ Job Name: graph_crawler
+ Node: gal-c1
+ CPUs: 1
+======================================
+
+slurmstepd: error: *** JOB 3088 ON gal-c1 CANCELLED AT 2025-09-22T22:55:40 DUE TO TIME LIMIT ***

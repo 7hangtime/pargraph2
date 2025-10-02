@@ -1,0 +1,15 @@
+make: Nothing to be done for 'all'.
+======================================
+ SLURM job information
+ Job ID: 3089
+ Job Name: graph_crawler
+ Node: gal-c1
+ CPUs: 1
+======================================
+
+crawler: rapidjson/document.h:1359: rapidjson::GenericValue<Encoding, Allocator>::MemberIterator rapidjson::GenericValue<Encoding, Allocator>::FindMember(const rapidjson::GenericValue<Encoding, SourceAllocator>&) [with SourceAllocator = rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>; rapidjson::GenericValue<Encoding, Allocator>::MemberIterator = rapidjson::GenericMemberIterator<false, rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >]: Assertion `IsObject()' failed.
+/var/spool/slurm/slurmd/job03089/slurm_script: line 21: 2732601 Aborted                 (core dumped) ./crawler "Here" 6
+
+real	7m2.650s
+user	0m1.988s
+sys	0m0.378s
